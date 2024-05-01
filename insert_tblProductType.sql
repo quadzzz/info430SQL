@@ -1,0 +1,30 @@
+USE Team8NordstromDB
+
+insert into tblProductType (ProductTypeDesc) values ('SwimWear');
+insert into tblProductType (ProductTypeDesc) values ('Loungewear');
+insert into tblProductType (ProductTypeDesc) values ('Athletic');
+insert into tblProductType (ProductTypeDesc) values ('Dining');
+insert into tblProductType (ProductTypeDesc) values ('Bedding');
+insert into tblProductType (ProductTypeDesc) values ('Jackets&Blazers');
+insert into tblProductType (ProductTypeDesc) values ('Dresses');
+insert into tblProductType (ProductTypeDesc) values ('Coats');
+insert into tblProductType (ProductTypeDesc) values ('Boots');
+insert into tblProductType (ProductTypeDesc) values ('HomeDecor');
+insert into tblProductType (ProductTypeDesc) values ('Bath');
+insert into tblProductType (ProductTypeDesc) values ('HairCare');
+insert into tblProductType (ProductTypeDesc) values ('Heels');
+insert into tblProductType (ProductTypeDesc) values ('Jeans&Denim');
+insert into tblProductType (ProductTypeDesc) values ('Sweaters');
+insert into tblProductType (ProductTypeDesc) values ('T-shirts');
+insert into tblProductType (ProductTypeDesc) values ('Activewear');
+insert into tblProductType (ProductTypeDesc) values ('Sneakers');
+insert into tblProductType (ProductTypeDesc) values ('Intimites');
+insert into tblProductType (ProductTypeDesc) values ('Comfort');
+insert into tblProductType (ProductTypeDesc) values ('Dresses');
+insert into tblProductType (ProductTypeDesc) values ('HomeDecor');
+insert into tblProductType (ProductTypeDesc) values ('Makeup');
+insert into tblProductType (ProductTypeDesc) values ('Kitchen');
+insert into tblProductType (ProductTypeDesc) values ('Flats');
+insert into tblProductType (ProductTypeDesc) values ('Sleepwear');
+insert into tblProductType (ProductTypeDesc) values ('Shorts');
+insert into tblProductType (ProductTypeDesc) values ('Sweatshirts&Hoodies');
