@@ -1,6 +1,5 @@
 USE Team8NordstromDB
 
--- DELETE FROM tblProduct;
 
 insert into tblProduct (ProductName, ProductPrice, StockQuantity, BrandID, ProductTypeID) values ('Wildior S2U 53mm Rectangular Sunglasses', 271.72, 7559, (SELECT TOP 1 BrandID FROM tblBrand WHERE BrandID BETWEEN 1 AND 18 ORDER BY NEWID()), (SELECT TOP 1 ProductTypeID FROM tblProductType WHERE ProductTypeID BETWEEN 1 AND 18 ORDER BY NEWID()));
 insert into tblProduct (ProductName, ProductPrice, StockQuantity, BrandID, ProductTypeID) values ('GrandPro Rally Sneaker', 780.78, 8315, (SELECT TOP 1 BrandID FROM tblBrand WHERE BrandID BETWEEN 1 AND 18 ORDER BY NEWID()), (SELECT TOP 1 ProductTypeID FROM tblProductType WHERE ProductTypeID BETWEEN 1 AND 18 ORDER BY NEWID()));

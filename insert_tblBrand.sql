@@ -1,20 +1,20 @@
 USE Team8NordstromDB
 GO
 
--- INSERT INTO tblBrand (BrandDescription) VALUES ('designer')
--- INSERT INTO tblBrand (BrandDescription) VALUES ('shoe women')
--- INSERT INTO tblBrand (BrandDescription) VALUES ('shoe men')
--- INSERT INTO tblBrand (BrandDescription) VALUES ('youth clothing')
--- INSERT INTO tblBrand (BrandDescription) VALUES ('clothing women')
--- INSERT INTO tblBrand (BrandDescription) VALUES ('clothing men')
--- INSERT INTO tblBrand (BrandDescription) VALUES ('denim women')
--- INSERT INTO tblBrand (BrandDescription) VALUES ('fine jewlery')
--- INSERT INTO tblBrand (BrandDescription) VALUES ('athletic')
--- INSERT INTO tblBrand (BrandDescription) VALUES ('plus size women')
--- INSERT INTO tblBrand (BrandDescription) VALUES ('accessories')
--- INSERT INTO tblBrand (BrandDescription) VALUES ('youth shoes')
--- INSERT INTO tblBrand (BrandDescription) VALUES ('cosmetics')
--- INSERT INTO tblBrand (BrandDescription) VALUES ('home')
+INSERT INTO tblBrand (BrandDescription) VALUES ('designer')
+INSERT INTO tblBrand (BrandDescription) VALUES ('shoe women')
+INSERT INTO tblBrand (BrandDescription) VALUES ('shoe men')
+INSERT INTO tblBrand (BrandDescription) VALUES ('youth clothing')
+INSERT INTO tblBrand (BrandDescription) VALUES ('clothing women')
+INSERT INTO tblBrand (BrandDescription) VALUES ('clothing men')
+INSERT INTO tblBrand (BrandDescription) VALUES ('denim women')
+INSERT INTO tblBrand (BrandDescription) VALUES ('fine jewlery')
+INSERT INTO tblBrand (BrandDescription) VALUES ('athletic')
+INSERT INTO tblBrand (BrandDescription) VALUES ('plus size women')
+INSERT INTO tblBrand (BrandDescription) VALUES ('accessories')
+INSERT INTO tblBrand (BrandDescription) VALUES ('youth shoes')
+INSERT INTO tblBrand (BrandDescription) VALUES ('cosmetics')
+INSERT INTO tblBrand (BrandDescription) VALUES ('home')
 
 
 -- ALTER TABLE tblBrand

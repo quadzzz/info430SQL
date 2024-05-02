@@ -1,15 +1,5 @@
 USE Team8NordstromDB
 
--- DROP TABLE tblOrderProduct
--- DROP TABLE tblDiscount
-
--- -- DELETE FROM tblOrderProduct;
--- DELETE FROM tblOrderProduct
--- WHERE OrderProductID IN (
---     SELECT TOP 500 OrderProductID
---     FROM tblOrderProduct
--- );
-
 insert into tblOrderProduct (ProductID, OrderID, DiscountID, ProductQuantity, ListPrice) values ((SELECT TOP 1 ProductID FROM tblProduct WHERE ProductID BETWEEN 1001 AND 2000 ORDER BY NEWID()), (SELECT TOP 1 OrderID FROM tblOrder WHERE OrderID BETWEEN 2004 AND 3004 ORDER BY NEWID()), (SELECT TOP 1 DiscountID FROM tblDiscount WHERE DiscountID BETWEEN 1101 AND 1200 ORDER BY NEWID()), 100, 11513.66);
 insert into tblOrderProduct (ProductID, OrderID, DiscountID, ProductQuantity, ListPrice) values ((SELECT TOP 1 ProductID FROM tblProduct WHERE ProductID BETWEEN 1001 AND 2000 ORDER BY NEWID()), (SELECT TOP 1 OrderID FROM tblOrder WHERE OrderID BETWEEN 2004 AND 3004 ORDER BY NEWID()), (SELECT TOP 1 DiscountID FROM tblDiscount WHERE DiscountID BETWEEN 1101 AND 1200 ORDER BY NEWID()), 90, 1736.63);
 insert into tblOrderProduct (ProductID, OrderID, DiscountID, ProductQuantity, ListPrice) values ((SELECT TOP 1 ProductID FROM tblProduct WHERE ProductID BETWEEN 1001 AND 2000 ORDER BY NEWID()), (SELECT TOP 1 OrderID FROM tblOrder WHERE OrderID BETWEEN 2004 AND 3004 ORDER BY NEWID()), (SELECT TOP 1 DiscountID FROM tblDiscount WHERE DiscountID BETWEEN 1101 AND 1200 ORDER BY NEWID()), 90, 7423.72);
