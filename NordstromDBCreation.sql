@@ -95,9 +95,10 @@ USE Team8NordstromDB
 
 -- CREATE TABLE tblStore (
 --     StoreID INT PRIMARY KEY IDENTITY(1,1),
---     Store VARCHAR(50),
---     StoreAddress VARCHAR(50),
---     StoreDivision VARCHAR(50)
+--     StoreNumber INT NOT NULL,
+--     StoreName VARCHAR(50) NOT NULL,
+--     StoreAddress VARCHAR(50) NOT NULL,
+--     StoreDivision VARCHAR(50) NOT NULL,
 -- );
 
 
@@ -112,6 +113,7 @@ USE Team8NordstromDB
 -- CREATE TABLE tblEmployee (
 --     EmployeeID INT PRIMARY KEY IDENTITY(1,1),
 --     EmployeeTypeID INT,
+--     PositionTypeID INT,
 --     StoreID INT,
 --     DepartmentID INT,
 --     EmployeeFName VARCHAR(50),
@@ -119,12 +121,26 @@ USE Team8NordstromDB
 --     EmployeePhone VARCHAR(50),
 --     EmployeeEmail VARCHAR(50),
 --     EmployeeDateOfBirth DATE,
---     FOREIGN KEY (EmployeeTypeID) REFERENCES tblEmployeeType(EmployeeTypeID),
+--     FOREIGN KEY (EmployeeTypeID) REFERENCES tblEmployeeTitle(EmployeeTitleID),
+--     FOREIGN KEY (PositionTypeID) REFERENCES tblPositionType(PositionTypeID),
 --     FOREIGN KEY (StoreID) REFERENCES tblStore(StoreID),
 --     FOREIGN KEY (DepartmentID) REFERENCES tblDepartment(DepartmentID)
 -- );
 
 
 
+-- CREATE TABLE tblEmployeeTitle (
+--     EmployeeTitleID INT PRIMARY KEY,
+--     EmployeeTitle VARCHAR(50) NOT NULL
+-- );
 
+-- ALTER TABLE tblEmployee
+-- ADD PositionTypeID INT; -- Add the new column for storing Position Type IDs
+
+-- ALTER TABLE tblEmployee
+-- ADD CONSTRAINT FK_PositionType_Employee FOREIGN KEY (PositionTypeID) REFERENCES tblPositionType(PositionTypeID);
+
+-- SELECT top 20* FROM tblStore
+
+-- DROP TABLE tblStore
 

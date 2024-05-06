@@ -1,7 +1,3 @@
-USE Team8NordstromDB
-
--- ALTER TABLE tblStore
-
 insert into tblStore (StoreNumber, StoreName, StoreAddress, StoreDivision) values (115, 'Bloomington Mall of America', '8179 Pawling Park', 'Southwest');
 insert into tblStore (StoreNumber, StoreName, StoreAddress, StoreDivision) values (213, 'Cheyenne Frontier Store', '29868 Coleman Street', 'Southwest');
 insert into tblStore (StoreNumber, StoreName, StoreAddress, StoreDivision) values (273, 'Dover First State Plaza', '9459 Dawn Pass', 'Southwest');
@@ -362,9 +358,3 @@ insert into tblStore (StoreNumber, StoreName, StoreAddress, StoreDivision) value
 insert into tblStore (StoreNumber, StoreName, StoreAddress, StoreDivision) values (283, 'Greensboro Gate City Boutique', '9954 Westerfield Pass', 'East Coast');
 insert into tblStore (StoreNumber, StoreName, StoreAddress, StoreDivision) values (54, 'Cheyenne Frontier Store', '74329 Waubesa Terrace', 'East Coast');
 insert into tblStore (StoreNumber, StoreName, StoreAddress, StoreDivision) values (273, 'Tulsa Golden Gateway', '6 Longview Terrace', 'East Coast');
-
-
-
--- DELETE FROM tblStore;
-
-SELECT * FROM tblStore
