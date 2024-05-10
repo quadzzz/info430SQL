@@ -2,7 +2,7 @@ USE Team8NordstromDB
 
 SET IDENTITY_INSERT tblDepartment ON;
 
-insert into tblDepartment (DepartmentID, DepartmentDesc) values (1, 'Shoes');
+insert into tblDepartment (DepartmentID, DepartmentName) values (1, 'Shoes');
 insert into tblDepartment (DepartmentID, DepartmentDesc) values (2, 'Designer');
 insert into tblDepartment (DepartmentID, DepartmentDesc) values (3, 'Clothing');
 insert into tblDepartment (DepartmentID, DepartmentDesc) values (4, 'Accessories');

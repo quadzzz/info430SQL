@@ -78,7 +78,6 @@ BEGIN
 END;
 GO
 
-
 -- Now the main stored procedure that inserts into tblOrder
 CREATE OR ALTER PROCEDURE sp_InsertOrder
 -- parameters

@@ -64,3 +64,12 @@ HAVING COUNT(*) > 1;
 
 
 select * from tblEmployee
+
+
+
+-- Query to retrieve count of employees that occupy each position --
+
+SELECT et.EmployeeTitle, COUNT(e.EmployeeID) AS EmployeeCount
+FROM tblEmployee e
+JOIN tblEmployeeTitle et on e.EmployeeTitleID = et.EmployeeTitleID
+GROUP BY EmployeeTitle
