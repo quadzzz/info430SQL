@@ -46,7 +46,6 @@ BEGIN
         )
 
         COMMIT TRAN -- Commit the transaction if no errors
-
         -- Output a message indicating success
         SELECT 'New employee added successfully!'
 
